@@ -5,7 +5,7 @@
 
    Usage : ./a.out filename source_node dest_node num_processors
    
-   Sample Input     :   ravi@ubuntu:~/Desktop$ ./a.out data100 1 9 4
+   Sample Input     :   priya@ubuntu:~/Desktop$ ./a.out data100 1 9 4
    Sample Output  :   Shortest Distance : 30 
                                Shortest Path     : 1 71 58 9 
                                Time   : 018111
@@ -65,37 +65,37 @@ them will itself be a big overhead.
 
 //SPEEDUP
 /*
-ravi@ubuntu:~/Desktop/Now$ ./a.out data10 3 9 2                       // DUAL CORE MACHINE
+priya@ubuntu:~/Desktop/Now$ ./a.out data10 3 9 2                       // DUAL CORE MACHINE
 Shortest Distance : 31                                                           
 Shortest Path     : 3 4 9  
 Time   : 000144                                                                       
-ravi@ubuntu:~/Desktop/Now$ ./a.out data20 3 9 2
+priya@ubuntu:~/Desktop/Now$ ./a.out data20 3 9 2
 Shortest Distance : 29 
 Shortest Path     : 3 0 9 
 Time   : 000430
-ravi@ubuntu:~/Desktop/Now$ ./a.out data50 3 9 2
+priya@ubuntu:~/Desktop/Now$ ./a.out data50 3 9 2
 Shortest Distance : 56 
 Shortest Path     : 3 38 7 9 
 Time   : 004484
-ravi@ubuntu:~/Desktop/Now$ ./a.out data100 3 9 2
+priya@ubuntu:~/Desktop/Now$ ./a.out data100 3 9 2
 Shortest Distance : 24 
 Shortest Path     : 3 81 71 58 9 
 Time   : 018980
 
 
-ravi@ubuntu:~/Desktop/Now$ ./a.out data10 3 9 1
+priya@ubuntu:~/Desktop/Now$ ./a.out data10 3 9 1
 Shortest Distance : 31 
 Shortest Path     : 3 4 9 
 Time   : 000174
-ravi@ubuntu:~/Desktop/Now$ ./a.out data20 3 9 2
+priya@ubuntu:~/Desktop/Now$ ./a.out data20 3 9 2
 Shortest Distance : 29 
 Shortest Path     : 3 0 9 
 Time   : 000610
-ravi@ubuntu:~/Desktop/Now$ ./a.out data50 3 9 1
+priya@ubuntu:~/Desktop/Now$ ./a.out data50 3 9 1
 Shortest Distance : 56 
 Shortest Path     : 3 38 7 9 
 Time   : 007982
-ravi@ubuntu:~/Desktop/Now$ ./a.out data100 3 9 1
+priya@ubuntu:~/Desktop/Now$ ./a.out data100 3 9 1
 Shortest Distance : 24 
 Shortest Path     : 3 81 71 58 9 
 Time   : 041378
@@ -105,16 +105,16 @@ Time   : 041378
 
 // OUTPUT (3,9)        ----------  WITH PATH RECONSTRUCTION
 /*
- ravi@ubuntu:~/Desktop/Now$ ./a.out data10 3 9
+ priya@ubuntu:~/Desktop/Now$ ./a.out data10 3 9
          Shortest Distance : 31 
          Shortest path : 3 4 9 
-ravi@ubuntu:~/Desktop/Now$ ./a.out data20 3 9
+priya@ubuntu:~/Desktop/Now$ ./a.out data20 3 9
          Shortest Distance : 29 
          Shortest path : 3 0 9 
-ravi@ubuntu:~/Desktop/Now$ ./a.out data50 3 9
+priya@ubuntu:~/Desktop/Now$ ./a.out data50 3 9
          Shortest Distance : 56 
          Shortest path : 3 38 7 9 
-ravi@ubuntu:~/Desktop/Now$ ./a.out data100 3 9
+priya@ubuntu:~/Desktop/Now$ ./a.out data100 3 9
          Shortest Distance : 24 
          Shortest path : 3 81 71 58 9 
 */

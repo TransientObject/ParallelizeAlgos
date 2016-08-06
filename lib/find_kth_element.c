@@ -10,30 +10,30 @@
                k = kth smallest number
       
 Running time for  array size = 100000 and k value declining
-ravi@ubuntu:~$ cc -fopenmp indexsort.c
-ravi@ubuntu:~$ time ./a.out 100000 60000
+priya@ubuntu:~$ cc -fopenmp indexsort.c
+priya@ubuntu:~$ time ./a.out 100000 60000
  kth element is 47800
 real	0m0.045s
-ravi@ubuntu:~$ time ./a.out 100000 40000
+priya@ubuntu:~$ time ./a.out 100000 40000
  kth element is 13385 
 real	0m0.041s
-ravi@ubuntu:~$ time ./a.out 100000 10000
+priya@ubuntu:~$ time ./a.out 100000 10000
  kth element is 8384
 real	0m0.031s
 
  Running time declining array size
  
- ravi@ubuntu:~$ time ./a.out 100000 6000
+ priya@ubuntu:~$ time ./a.out 100000 6000
  kth element is 59524
 real	0m0.022s
 user	0m0.020s
 sys	0m0.000s
-ravi@ubuntu:~$ time ./a.out 10000 6000
+priya@ubuntu:~$ time ./a.out 10000 6000
  kth element is 4533
 real	0m0.005s
 user	0m0.004s
 sys	0m0.000s
-ravi@ubuntu:~$ time ./a.out 1000 600
+priya@ubuntu:~$ time ./a.out 1000 600
  kth element is 438
 real	0m0.003s
 user	0m0.004s

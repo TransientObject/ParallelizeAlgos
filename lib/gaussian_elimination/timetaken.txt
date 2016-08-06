@@ -1,5 +1,5 @@
 serial code:
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
  0.00	 0.00	 1.00	-1.00	
@@ -7,7 +7,7 @@ ravi@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out
 
 
 Time Taken:220964433 micros
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
  0.00	 0.00	 1.00	-1.00	
@@ -15,7 +15,7 @@ ravi@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out
 
 
 Time Taken:2102526188 micros
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ ./a.out 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
  0.00	 0.00	 1.00	-1.00	
@@ -26,12 +26,12 @@ Time Taken:1540667792 micros
 
 
 parallel code :
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpicc gaussparallel.c 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpicc gaussparallel.c 
 gaussparallel.c: In function ‘main’:
 gaussparallel.c:116: warning: assignment from incompatible pointer type
 gaussparallel.c:123: warning: assignment from incompatible pointer type
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
-ravi@ubuntu's password: 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
+priya@ubuntu's password: 
 
 
 
@@ -42,12 +42,12 @@ ravi@ubuntu's password:
 
 
 Time Taken:1074726 micros
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpicc gaussparallel.c
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpicc gaussparallel.c
 gaussparallel.c: In function ‘main’:
 gaussparallel.c:116: warning: assignment from incompatible pointer type
 gaussparallel.c:123: warning: assignment from incompatible pointer type
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
-ravi@ubuntu's password: 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
+priya@ubuntu's password: 
 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
@@ -58,8 +58,8 @@ ravi@ubuntu's password:
 Time Taken:1073223 micros
 
 
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
-ravi@ubuntu's password: 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
+priya@ubuntu's password: 
 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
@@ -70,8 +70,8 @@ ravi@ubuntu's password:
 Time Taken:1049736 micros
 
 
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
-ravi@ubuntu's password: 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ mpirun -np 3 ./a.out 
+priya@ubuntu's password: 
  1.00	 0.00	 0.00	 2.00	
  0.00	 1.00	 0.00	 3.00	
  0.00	 0.00	 1.00	-1.00	
@@ -82,7 +82,7 @@ ravi@ubuntu's password:
 
 
 Time Taken:1044070 micros
-ravi@ubuntu:~/multicore/CS531_20072189_20072203$ 
+priya@ubuntu:~/multicore/CS531_20072189_20072203$ 
 
 
 
